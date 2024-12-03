@@ -14,7 +14,7 @@ public class CampaignModule extends BaseClass {
 		h.setcampaign();
 		CreateCampaignPage c=new CreateCampaignPage(driver);
 		c.getNewCmpgnBtn().click();
-		c.getCmpgnNameTbx().sendKeys("BigBillionDays");
+		c.getCmpgnNameTbx().sendKeys("QSPIDERS LAUNCH");
 		c.getSaveBtn().click();
   }
 }
